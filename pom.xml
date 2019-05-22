@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>cnn</module>
+        <module>TargetModule</module>
     </modules>
 
     <dependencyManagement>
