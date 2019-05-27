@@ -10,19 +10,22 @@ import org.testng.annotations.Test;
 
 public class Login extends CommonAPI {
 
-    public static void loginurl() {
 
-        clickByXpath("//a[contains(text(),'Sign in')]");
+    public static void login( ) {
+
+        clickByXpath("//*[@id=\"gh-ug\"]/a");
+        sleepFor(2);
     }
 
-    public static void loginusername() {
-        typeByXpath("//input[@id='userid']", "rachid");
 
-    }
+     public static void login2(){
+        sleepFor(2);
+        clickByXpath("//*[@id=\"gh-ug\"]/a");
+typeByXpath("//input[@id='userid']","rachid");
+typeByXpath("//input[@id='pass']","12346");
 
-    public static void loginpassword() {
-        typeByXpath("//input[@id='pass']", "12346");
-        clickByXpath("//button[@id='sgnBt']");
+
+
     }
 
 }

@@ -15,7 +15,15 @@
 
     <test name="Name Test Home">
         <classes>
-            <class name="regressionTest.TestCreateAccount"/>
+
+            <class name="testsearch.TestCategoriesFashion"/>
+            <class name="SearshFasion.Chanel"/>
+            <class name="testsearch.TestCategoriesMotors"/>
+            <class name="testsearch.TestTopBrand"/>
+            <class name="testregression.TestRegressioncars"/>
+            <class name="regressionTest.TestCreatAccount"/>
+            <class name="regressionTest.TestHompage"/>
+            <class name="regressionTest.TestLogin"/>
         </classes>
     </test>
 </suite>
